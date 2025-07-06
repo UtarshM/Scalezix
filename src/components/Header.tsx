@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import scalezixLogo from '../assets/Screenshot_2025-07-06_at_11.40.08_AM-removebg-preview.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
