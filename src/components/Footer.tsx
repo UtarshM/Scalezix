@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin, ArrowRight, Award } from 'lucide-react';
+import scalezixLogo from '../assets/Screenshot_2025-07-06_at_11.40.08_AM-removebg-preview.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
